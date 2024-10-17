@@ -1,0 +1,67 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.13136",
+   "Default View_TopLeft":"432,-263",
+   "ExpandedHierarchyInLayout":"/ps7_0_axi_periph|/ps7_0_axi_periph/s01_couplers",
+   "guistr":"# # String gsaved with Nlview 7.7.1 2023-07-26 3bc4126617 VDI=43 GEI=38 GUI=JA:21.0 TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 7 -x 3500 -y 550 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 7 -x 3500 -y 570 -defaultsOSRD
+preplace port port-id_hdmi_out_clk_p -pg 1 -lvl 7 -x 3500 -y 150 -defaultsOSRD
+preplace port port-id_hdmi_out_clk_n -pg 1 -lvl 7 -x 3500 -y 130 -defaultsOSRD
+preplace portBus hdmi_out_data_p -pg 1 -lvl 7 -x 3500 -y 190 -defaultsOSRD
+preplace portBus hdmi_out_data_n -pg 1 -lvl 7 -x 3500 -y 210 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 4 -x 1670 -y 420 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 6 -x 2540 -y 382 -defaultsOSRD
+preplace inst rst_ps7_0_100M -pg 1 -lvl 5 -x 2100 -y 480 -defaultsOSRD
+preplace inst v_tc_0 -pg 1 -lvl 2 -x 1040 -y 350 -defaultsOSRD
+preplace inst v_axi4s_vid_out_0 -pg 1 -lvl 1 -x 640 -y 400 -defaultsOSRD
+preplace inst rgb2dvi_0 -pg 1 -lvl 3 -x 1330 -y 170 -defaultsOSRD
+preplace inst v_frmbuf_rd_0 -pg 1 -lvl 1 -x 640 -y -10 -defaultsOSRD
+preplace inst ps7_0_axi_periph|xbar -pg 1 -lvl 2 -x 2950 -y 492 -defaultsOSRD
+preplace inst ps7_0_axi_periph|s00_couplers -pg 1 -lvl 1 -x 2650 -y 342 -defaultsOSRD
+preplace inst ps7_0_axi_periph|s01_couplers -pg 1 -lvl 1 -x 2650 -y 522 -defaultsOSRD
+preplace inst ps7_0_axi_periph|m00_couplers -pg 1 -lvl 3 -x 3220 -y 372 -defaultsOSRD
+preplace inst ps7_0_axi_periph|m01_couplers -pg 1 -lvl 3 -x 3220 -y 542 -defaultsOSRD
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 6 440 260 830 450 N 450 1470 540 1910 380 2280
+preplace netloc processing_system7_0_FCLK_CLK1 1 0 5 450 550 920 460 1190J 550 NJ 550 1870
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 4 1 1920 460n
+preplace netloc rgb2dvi_0_TMDS_Clk_n 1 3 4 1470J 130 NJ 130 NJ 130 NJ
+preplace netloc rgb2dvi_0_TMDS_Clk_p 1 3 4 NJ 150 NJ 150 NJ 150 NJ
+preplace netloc rgb2dvi_0_TMDS_Data_n 1 3 4 NJ 210 1870J 212 NJ 212 3480J
+preplace netloc rgb2dvi_0_TMDS_Data_p 1 3 4 NJ 190 1870J 192 NJ 192 3480J
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 0 6 450 250 N 250 1160 270 NJ 270 NJ 270 2290
+preplace netloc v_axi4s_vid_out_0_vtg_ce 1 1 1 N 350
+preplace netloc processing_system7_0_DDR 1 4 3 1880J 182 N 182 3470
+preplace netloc processing_system7_0_FIXED_IO 1 4 3 1890J 202 N 202 3460
+preplace netloc processing_system7_0_M_AXI_GP0 1 4 2 1900 302 NJ
+preplace netloc v_axi4s_vid_out_0_vid_io_out 1 1 2 820 150 NJ
+preplace netloc v_tc_0_vtiming_out 1 0 3 460 540 NJ 540 1160
+preplace netloc v_frmbuf_rd_0_m_axi_mm_video 1 1 5 NJ -30 NJ -30 NJ -30 NJ -30 2300
+preplace netloc ps7_0_axi_periph_M01_AXI 1 0 7 460 70 NJ 70 NJ 70 NJ 70 NJ 70 NJ 70 3450
+preplace netloc v_frmbuf_rd_0_m_axis_video 1 0 2 460 80 820
+preplace netloc ps7_0_axi_periph|ps7_0_axi_periph_ACLK_net 1 0 3 2450 612 2800 582 3100
+preplace netloc ps7_0_axi_periph|ps7_0_axi_periph_ARESETN_net 1 0 3 2460 622 2810 592 3110
+preplace netloc ps7_0_axi_periph|ps7_0_axi_periph_to_s00_couplers 1 0 1 N 302
+preplace netloc ps7_0_axi_periph|s00_couplers_to_xbar 1 1 1 2800 342n
+preplace netloc ps7_0_axi_periph|ps7_0_axi_periph_to_s01_couplers 1 0 1 N 482
+preplace netloc ps7_0_axi_periph|s01_couplers_to_xbar 1 1 1 N 482
+preplace netloc ps7_0_axi_periph|m00_couplers_to_ps7_0_axi_periph 1 3 1 N 372
+preplace netloc ps7_0_axi_periph|xbar_to_m00_couplers 1 2 1 3090 332n
+preplace netloc ps7_0_axi_periph|m01_couplers_to_ps7_0_axi_periph 1 3 1 N 542
+preplace netloc ps7_0_axi_periph|xbar_to_m01_couplers 1 2 1 N 502
+preplace netloc ps7_0_axi_periph|s01_couplers|s01_couplers_to_s01_couplers 1 0 1 N 482
+levelinfo -pg 1 0 640 1040 1330 1670 2100 2540 3500
+levelinfo -hier ps7_0_axi_periph * 2650 2950 3220 *
+levelinfo -hier ps7_0_axi_periph|s01_couplers * *
+pagesize -pg 1 -db -bbox -sgen 0 -90 3820 1240
+pagesize -hier ps7_0_axi_periph -db -bbox -sgen 2420 242 3360 692
+pagesize -hier ps7_0_axi_periph|s01_couplers -db -bbox -sgen 2570 452 2730 592
+"
+}
+{
+   "da_axi4_cnt":"10",
+   "da_axi4_s2mm_cnt":"1",
+   "da_clkrst_cnt":"11",
+   "da_ps7_cnt":"3"
+}

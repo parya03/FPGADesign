@@ -1,3 +1,8 @@
+# Vivado generated directories
+**.cache/
+**.hw/
+**.sim/
+
 # Prerequisites
 *.d
 
