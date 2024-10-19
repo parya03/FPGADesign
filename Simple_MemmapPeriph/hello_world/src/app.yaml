@@ -1,0 +1,3 @@
+domain_path: /home/p7810456/FPGADesign/Simple_MemmapPeriph/platform/export/platform/sw/standalone_ps7_cortexa9_0
+app_src_dir: /home/p7810456/Xilinx/Vitis/2024.1/data/embeddedsw/lib/sw_apps/hello_world
+template: hello_world

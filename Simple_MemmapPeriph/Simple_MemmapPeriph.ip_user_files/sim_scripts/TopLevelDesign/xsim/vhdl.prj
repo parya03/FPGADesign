@@ -1,0 +1,5 @@
+vhdl xil_defaultlib  \
+"../../../bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/sim/TopLevelDesign_rst_ps7_0_100M_0.vhd" \
+
+# Do not sort compile order
+nosort
