@@ -3,29 +3,29 @@
 # SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
 # IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
 # SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-# Start of session at: Thu Oct 17 15:06:49 2024
-# Process ID: 33970
-# Current directory: /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.runs/TopLevelDesign_rst_ps7_0_100M_0_synth_1
+# Start of session at: Fri Nov  8 19:46:59 2024
+# Process ID: 2116
+# Current directory: /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.runs/TopLevelDesign_rst_ps7_0_100M_0_synth_1
 # Command line: vivado -log TopLevelDesign_rst_ps7_0_100M_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source TopLevelDesign_rst_ps7_0_100M_0.tcl
-# Log file: /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.runs/TopLevelDesign_rst_ps7_0_100M_0_synth_1/TopLevelDesign_rst_ps7_0_100M_0.vds
-# Journal file: /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.runs/TopLevelDesign_rst_ps7_0_100M_0_synth_1/vivado.jou
-# Running On        :p7810456-desktop-ubuntu
+# Log file: /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.runs/TopLevelDesign_rst_ps7_0_100M_0_synth_1/TopLevelDesign_rst_ps7_0_100M_0.vds
+# Journal file: /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.runs/TopLevelDesign_rst_ps7_0_100M_0_synth_1/vivado.jou
+# Running On        :03eb3b363294
 # Platform          :Ubuntu
-# Operating System  :Ubuntu 22.04.3 LTS
-# Processor Detail  :AMD Ryzen 7 3700X 8-Core Processor
-# CPU Frequency     :4017.130 MHz
-# CPU Physical cores:8
-# CPU Logical cores :16
-# Host memory       :33566 MB
-# Swap memory       :2147 MB
-# Total Virtual     :35713 MB
-# Available Virtual :21689 MB
+# Operating System  :Ubuntu 22.04.5 LTS
+# Processor Detail  :
+# CPU Frequency     :
+# CPU Physical cores:12
+# CPU Logical cores :12
+# Host memory       :18834 MB
+# Swap memory       :4294 MB
+# Total Virtual     :23129 MB
+# Available Virtual :20613 MB
 #-----------------------------------------------------------
 source TopLevelDesign_rst_ps7_0_100M_0.tcl -notrace
-create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1444.555 ; gain = 43.836 ; free physical = 9567 ; free virtual = 18765
+create_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2048.219 ; gain = 113.008 ; free physical = 12761 ; free virtual = 18449
 INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/p7810456/FPGADesign/ip_repo/Simple_MMap_1_0'.
-INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/p7810456/Xilinx/Vivado/2024.1/data/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/user/FPGADesign/ip_repo/Simple_MMap_1_0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/user/Xilinx/Vivado/2024.1/data/ip'.
 INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: TopLevelDesign_rst_ps7_0_100M_0
 Command: synth_design -top TopLevelDesign_rst_ps7_0_100M_0 -part xc7z020clg400-1 -incremental_mode off -mode out_of_context
 Starting synth_design
@@ -35,11 +35,11 @@ INFO: [Device 21-403] Loading part xc7z020clg400-1
 INFO: [Device 21-9227] Part: xc7z020clg400-1 does not have CEAM library.
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 34170
+INFO: [Synth 8-7075] Helper process launched with PID 2158
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2234.520 ; gain = 412.715 ; free physical = 4026 ; free virtual = 13254
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2883.898 ; gain = 412.762 ; free physical = 7934 ; free virtual = 13388
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'TopLevelDesign_rst_ps7_0_100M_0' [/home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/synth/TopLevelDesign_rst_ps7_0_100M_0.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'TopLevelDesign_rst_ps7_0_100M_0' [/home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/synth/TopLevelDesign_rst_ps7_0_100M_0.vhd:74]
 	Parameter C_FAMILY bound to: zynq - type: string 
 	Parameter C_EXT_RST_WIDTH bound to: 4 - type: integer 
 	Parameter C_AUX_RST_WIDTH bound to: 4 - type: integer 
@@ -49,106 +49,106 @@ INFO: [Synth 8-638] synthesizing module 'TopLevelDesign_rst_ps7_0_100M_0' [/home
 	Parameter C_NUM_PERP_RST bound to: 1 - type: integer 
 	Parameter C_NUM_INTERCONNECT_ARESETN bound to: 1 - type: integer 
 	Parameter C_NUM_PERP_ARESETN bound to: 1 - type: integer 
-INFO: [Synth 8-3491] module 'proc_sys_reset' declared at '/home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ipshared/3a26/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1271' bound to instance 'U0' of component 'proc_sys_reset' [/home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/synth/TopLevelDesign_rst_ps7_0_100M_0.vhd:129]
-INFO: [Synth 8-638] synthesizing module 'proc_sys_reset' [/home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ipshared/3a26/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1330]
+INFO: [Synth 8-3491] module 'proc_sys_reset' declared at '/home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ipshared/3a26/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1271' bound to instance 'U0' of component 'proc_sys_reset' [/home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/synth/TopLevelDesign_rst_ps7_0_100M_0.vhd:129]
+INFO: [Synth 8-638] synthesizing module 'proc_sys_reset' [/home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ipshared/3a26/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1330]
 	Parameter INIT bound to: 1'b1 
-INFO: [Synth 8-113] binding component instance 'FDRE_inst' to cell 'FDRE' [/home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ipshared/3a26/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1399]
+INFO: [Synth 8-113] binding component instance 'FDRE_inst' to cell 'FDRE' [/home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ipshared/3a26/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1399]
 	Parameter INIT bound to: 1'b1 
-INFO: [Synth 8-113] binding component instance 'FDRE_BSR' to cell 'FDRE' [/home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ipshared/3a26/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1415]
+INFO: [Synth 8-113] binding component instance 'FDRE_BSR' to cell 'FDRE' [/home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ipshared/3a26/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1415]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'FDRE_BSR_N' to cell 'FDRE' [/home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ipshared/3a26/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1441]
+INFO: [Synth 8-113] binding component instance 'FDRE_BSR_N' to cell 'FDRE' [/home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ipshared/3a26/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1441]
 	Parameter INIT bound to: 1'b1 
-INFO: [Synth 8-113] binding component instance 'FDRE_PER' to cell 'FDRE' [/home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ipshared/3a26/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1464]
+INFO: [Synth 8-113] binding component instance 'FDRE_PER' to cell 'FDRE' [/home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ipshared/3a26/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1464]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'FDRE_PER_N' to cell 'FDRE' [/home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ipshared/3a26/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1488]
-INFO: [Synth 8-638] synthesizing module 'lpf' [/home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ipshared/3a26/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:821]
-INFO: [Synth 8-3491] module 'SRL16' declared at '/home/p7810456/Xilinx/Vivado/2024.1/scripts/rt/data/unisim_comp.v:137246' bound to instance 'POR_SRL_I' of component 'SRL16' [/home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ipshared/3a26/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:873]
-INFO: [Synth 8-6157] synthesizing module 'SRL16' [/home/p7810456/Xilinx/Vivado/2024.1/scripts/rt/data/unisim_comp.v:137246]
-INFO: [Synth 8-6155] done synthesizing module 'SRL16' (0#1) [/home/p7810456/Xilinx/Vivado/2024.1/scripts/rt/data/unisim_comp.v:137246]
-INFO: [Synth 8-638] synthesizing module 'cdc_sync' [/home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ipshared/2a4f/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-113] binding component instance 'FDRE_PER_N' to cell 'FDRE' [/home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ipshared/3a26/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1488]
+INFO: [Synth 8-638] synthesizing module 'lpf' [/home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ipshared/3a26/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:821]
+INFO: [Synth 8-3491] module 'SRL16' declared at '/home/user/Xilinx/Vivado/2024.1/scripts/rt/data/unisim_comp.v:137246' bound to instance 'POR_SRL_I' of component 'SRL16' [/home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ipshared/3a26/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:873]
+INFO: [Synth 8-6157] synthesizing module 'SRL16' [/home/user/Xilinx/Vivado/2024.1/scripts/rt/data/unisim_comp.v:137246]
+INFO: [Synth 8-6155] done synthesizing module 'SRL16' (0#1) [/home/user/Xilinx/Vivado/2024.1/scripts/rt/data/unisim_comp.v:137246]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync' [/home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ipshared/2a4f/hdl/lib_cdc_v1_0_rfs.vhd:106]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [/home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ipshared/2a4f/hdl/lib_cdc_v1_0_rfs.vhd:514]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [/home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ipshared/2a4f/hdl/lib_cdc_v1_0_rfs.vhd:514]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2' to cell 'FDR' [/home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ipshared/2a4f/hdl/lib_cdc_v1_0_rfs.vhd:545]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2' to cell 'FDR' [/home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ipshared/2a4f/hdl/lib_cdc_v1_0_rfs.vhd:545]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d3' to cell 'FDR' [/home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ipshared/2a4f/hdl/lib_cdc_v1_0_rfs.vhd:554]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d3' to cell 'FDR' [/home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ipshared/2a4f/hdl/lib_cdc_v1_0_rfs.vhd:554]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4' to cell 'FDR' [/home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ipshared/2a4f/hdl/lib_cdc_v1_0_rfs.vhd:564]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4' to cell 'FDR' [/home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ipshared/2a4f/hdl/lib_cdc_v1_0_rfs.vhd:564]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5' to cell 'FDR' [/home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ipshared/2a4f/hdl/lib_cdc_v1_0_rfs.vhd:574]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5' to cell 'FDR' [/home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ipshared/2a4f/hdl/lib_cdc_v1_0_rfs.vhd:574]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6' to cell 'FDR' [/home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ipshared/2a4f/hdl/lib_cdc_v1_0_rfs.vhd:584]
-INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (0#1) [/home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ipshared/2a4f/hdl/lib_cdc_v1_0_rfs.vhd:106]
-INFO: [Synth 8-256] done synthesizing module 'lpf' (0#1) [/home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ipshared/3a26/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:821]
-INFO: [Synth 8-638] synthesizing module 'sequence_psr' [/home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ipshared/3a26/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:304]
-INFO: [Synth 8-638] synthesizing module 'upcnt_n' [/home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ipshared/3a26/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:126]
-INFO: [Synth 8-256] done synthesizing module 'upcnt_n' (0#1) [/home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ipshared/3a26/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:126]
-INFO: [Synth 8-256] done synthesizing module 'sequence_psr' (0#1) [/home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ipshared/3a26/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:304]
-INFO: [Synth 8-256] done synthesizing module 'proc_sys_reset' (0#1) [/home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ipshared/3a26/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1330]
-INFO: [Synth 8-256] done synthesizing module 'TopLevelDesign_rst_ps7_0_100M_0' (0#1) [/home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/synth/TopLevelDesign_rst_ps7_0_100M_0.vhd:74]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6' to cell 'FDR' [/home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ipshared/2a4f/hdl/lib_cdc_v1_0_rfs.vhd:584]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (0#1) [/home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ipshared/2a4f/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'lpf' (0#1) [/home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ipshared/3a26/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:821]
+INFO: [Synth 8-638] synthesizing module 'sequence_psr' [/home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ipshared/3a26/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:304]
+INFO: [Synth 8-638] synthesizing module 'upcnt_n' [/home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ipshared/3a26/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:126]
+INFO: [Synth 8-256] done synthesizing module 'upcnt_n' (0#1) [/home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ipshared/3a26/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:126]
+INFO: [Synth 8-256] done synthesizing module 'sequence_psr' (0#1) [/home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ipshared/3a26/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:304]
+INFO: [Synth 8-256] done synthesizing module 'proc_sys_reset' (0#1) [/home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ipshared/3a26/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1330]
+INFO: [Synth 8-256] done synthesizing module 'TopLevelDesign_rst_ps7_0_100M_0' (0#1) [/home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/synth/TopLevelDesign_rst_ps7_0_100M_0.vhd:74]
 WARNING: [Synth 8-7129] Port prmry_aclk in module cdc_sync is either unconnected or has no load
 WARNING: [Synth 8-7129] Port prmry_resetn in module cdc_sync is either unconnected or has no load
 WARNING: [Synth 8-7129] Port prmry_vect_in[1] in module cdc_sync is either unconnected or has no load
 WARNING: [Synth 8-7129] Port prmry_vect_in[0] in module cdc_sync is either unconnected or has no load
 WARNING: [Synth 8-7129] Port scndry_resetn in module cdc_sync is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2323.488 ; gain = 501.684 ; free physical = 3651 ; free virtual = 12882
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2976.230 ; gain = 505.094 ; free physical = 7017 ; free virtual = 12507
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2338.332 ; gain = 516.527 ; free physical = 3641 ; free virtual = 12872
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2991.254 ; gain = 520.117 ; free physical = 7105 ; free virtual = 12598
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2338.332 ; gain = 516.527 ; free physical = 3641 ; free virtual = 12872
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2991.254 ; gain = 520.117 ; free physical = 7105 ; free virtual = 12598
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2344.270 ; gain = 0.000 ; free physical = 3612 ; free virtual = 12845
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2997.980 ; gain = 0.062 ; free physical = 7025 ; free virtual = 12522
 INFO: [Netlist 29-17] Analyzing 13 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [/home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/TopLevelDesign_rst_ps7_0_100M_0_ooc.xdc] for cell 'U0'
-Finished Parsing XDC File [/home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/TopLevelDesign_rst_ps7_0_100M_0_ooc.xdc] for cell 'U0'
-Parsing XDC File [/home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/TopLevelDesign_rst_ps7_0_100M_0_board.xdc] for cell 'U0'
-Finished Parsing XDC File [/home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/TopLevelDesign_rst_ps7_0_100M_0_board.xdc] for cell 'U0'
-Parsing XDC File [/home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/TopLevelDesign_rst_ps7_0_100M_0.xdc] for cell 'U0'
-Finished Parsing XDC File [/home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/TopLevelDesign_rst_ps7_0_100M_0.xdc] for cell 'U0'
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/TopLevelDesign_rst_ps7_0_100M_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/TopLevelDesign_rst_ps7_0_100M_0_propImpl.xdc].
+Parsing XDC File [/home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/TopLevelDesign_rst_ps7_0_100M_0_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/TopLevelDesign_rst_ps7_0_100M_0_ooc.xdc] for cell 'U0'
+Parsing XDC File [/home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/TopLevelDesign_rst_ps7_0_100M_0_board.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/TopLevelDesign_rst_ps7_0_100M_0_board.xdc] for cell 'U0'
+Parsing XDC File [/home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/TopLevelDesign_rst_ps7_0_100M_0.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/TopLevelDesign_rst_ps7_0_100M_0.xdc] for cell 'U0'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/TopLevelDesign_rst_ps7_0_100M_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/TopLevelDesign_rst_ps7_0_100M_0_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/TopLevelDesign_rst_ps7_0_100M_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
-Parsing XDC File [/home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.runs/TopLevelDesign_rst_ps7_0_100M_0_synth_1/dont_touch.xdc]
-Finished Parsing XDC File [/home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.runs/TopLevelDesign_rst_ps7_0_100M_0_synth_1/dont_touch.xdc]
+Parsing XDC File [/home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.runs/TopLevelDesign_rst_ps7_0_100M_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.runs/TopLevelDesign_rst_ps7_0_100M_0_synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2481.082 ; gain = 0.000 ; free physical = 3362 ; free virtual = 12608
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3141.598 ; gain = 0.000 ; free physical = 6090 ; free virtual = 11793
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 13 instances were transformed.
   FDR => FDRE: 12 instances
   SRL16 => SRL16E: 1 instance 
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2481.082 ; gain = 0.000 ; free physical = 3361 ; free virtual = 12607
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.04 . Memory (MB): peak = 3141.887 ; gain = 0.227 ; free physical = 6078 ; free virtual = 11782
 INFO: [Designutils 20-5008] Incremental synthesis strategy off
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2481.082 ; gain = 659.277 ; free physical = 3150 ; free virtual = 12400
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 3143.102 ; gain = 671.965 ; free physical = 5957 ; free virtual = 11662
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2489.086 ; gain = 667.281 ; free physical = 3150 ; free virtual = 12400
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 3151.227 ; gain = 680.090 ; free physical = 5957 ; free virtual = 11662
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.runs/TopLevelDesign_rst_ps7_0_100M_0_synth_1/dont_touch.xdc, line 9).
+Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.runs/TopLevelDesign_rst_ps7_0_100M_0_synth_1/dont_touch.xdc, line 9).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2489.086 ; gain = 667.281 ; free physical = 3150 ; free virtual = 12400
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 3151.281 ; gain = 680.145 ; free physical = 5955 ; free virtual = 11660
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 2489.086 ; gain = 667.281 ; free physical = 3124 ; free virtual = 12375
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 3152.270 ; gain = 681.133 ; free physical = 5939 ; free virtual = 11644
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -184,25 +184,25 @@ WARNING: [Synth 8-3332] Sequential element (EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT/GE
 WARNING: [Synth 8-3332] Sequential element (EXT_LPF/ACTIVE_LOW_AUX.ACT_LO_AUX/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5) is unused and will be removed from module proc_sys_reset.
 WARNING: [Synth 8-3332] Sequential element (EXT_LPF/ACTIVE_LOW_AUX.ACT_LO_AUX/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6) is unused and will be removed from module proc_sys_reset.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 2489.086 ; gain = 667.281 ; free physical = 3105 ; free virtual = 12358
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 3153.113 ; gain = 681.977 ; free physical = 5893 ; free virtual = 11600
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 2489.086 ; gain = 667.281 ; free physical = 3059 ; free virtual = 12322
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 3175.344 ; gain = 704.207 ; free physical = 7981 ; free virtual = 13697
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 2489.086 ; gain = 667.281 ; free physical = 3059 ; free virtual = 12322
+Finished Timing Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 3175.344 ; gain = 704.207 ; free physical = 7981 ; free virtual = 13697
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 2489.086 ; gain = 667.281 ; free physical = 3044 ; free virtual = 12307
+Finished Technology Mapping : Time (s): cpu = 00:00:25 ; elapsed = 00:00:28 . Memory (MB): peak = 3175.344 ; gain = 704.207 ; free physical = 7981 ; free virtual = 13687
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -220,37 +220,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 2489.086 ; gain = 667.281 ; free physical = 2941 ; free virtual = 12204
+Finished IO Insertion : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 3175.344 ; gain = 704.207 ; free physical = 8040 ; free virtual = 13753
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 2489.086 ; gain = 667.281 ; free physical = 2941 ; free virtual = 12204
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 3175.344 ; gain = 704.207 ; free physical = 8040 ; free virtual = 13753
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 2489.086 ; gain = 667.281 ; free physical = 2941 ; free virtual = 12204
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 3175.344 ; gain = 704.207 ; free physical = 8040 ; free virtual = 13753
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 2489.086 ; gain = 667.281 ; free physical = 2941 ; free virtual = 12204
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 3175.344 ; gain = 704.207 ; free physical = 8040 ; free virtual = 13753
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 2489.086 ; gain = 667.281 ; free physical = 2941 ; free virtual = 12204
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 3175.344 ; gain = 704.207 ; free physical = 8040 ; free virtual = 13753
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 2489.086 ; gain = 667.281 ; free physical = 2941 ; free virtual = 12204
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 3175.344 ; gain = 704.207 ; free physical = 8040 ; free virtual = 13753
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -278,18 +278,18 @@ Report Cell Usage:
 |10    |FDSE  |     4|
 +------+------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 2489.086 ; gain = 667.281 ; free physical = 2941 ; free virtual = 12204
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 3175.344 ; gain = 704.207 ; free physical = 8040 ; free virtual = 13753
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 5 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 2489.086 ; gain = 524.531 ; free physical = 2941 ; free virtual = 12204
-Synthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 2489.094 ; gain = 667.281 ; free physical = 2941 ; free virtual = 12204
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 3175.344 ; gain = 553.141 ; free physical = 8040 ; free virtual = 13753
+Synthesis Optimization Complete : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 3175.344 ; gain = 704.207 ; free physical = 8040 ; free virtual = 13753
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2489.094 ; gain = 0.000 ; free physical = 2941 ; free virtual = 12204
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3175.344 ; gain = 0.000 ; free physical = 8040 ; free virtual = 13753
 INFO: [Netlist 29-17] Analyzing 9 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2545.113 ; gain = 0.000 ; free physical = 3704 ; free virtual = 12968
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 3193.340 ; gain = 0.000 ; free physical = 8847 ; free virtual = 14554
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 9 instances were transformed.
   FDR => FDRE: 8 instances
@@ -299,14 +299,14 @@ Synth Design complete | Checksum: c8c12763
 INFO: [Common 17-83] Releasing license: Synthesis
 50 Infos, 10 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:26 . Memory (MB): peak = 2545.113 ; gain = 1079.777 ; free physical = 3704 ; free virtual = 12968
-INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1886.179; main = 1478.936; forked = 414.363
-INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3584.715; main = 2545.117; forked = 1095.625
-Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2569.125 ; gain = 0.000 ; free physical = 3704 ; free virtual = 12968
-INFO: [Common 17-1381] The checkpoint '/home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.runs/TopLevelDesign_rst_ps7_0_100M_0_synth_1/TopLevelDesign_rst_ps7_0_100M_0.dcp' has been generated.
-INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP TopLevelDesign_rst_ps7_0_100M_0, cache-ID = b8f54495fb308d40
+synth_design: Time (s): cpu = 00:00:45 ; elapsed = 00:00:40 . Memory (MB): peak = 3193.410 ; gain = 1124.375 ; free physical = 8840 ; free virtual = 14552
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 2329.658; main = 1807.889; forked = 533.136
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 5697.895; main = 3193.410; forked = 2544.711
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.04 . Memory (MB): peak = 3218.832 ; gain = 0.367 ; free physical = 8839 ; free virtual = 14553
+INFO: [Common 17-1381] The checkpoint '/home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.runs/TopLevelDesign_rst_ps7_0_100M_0_synth_1/TopLevelDesign_rst_ps7_0_100M_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP TopLevelDesign_rst_ps7_0_100M_0, cache-ID = 220525e8e0a9e573
 INFO: [Coretcl 2-1174] Renamed 6 cell refs.
-Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2569.125 ; gain = 0.000 ; free physical = 4012 ; free virtual = 13276
-INFO: [Common 17-1381] The checkpoint '/home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.runs/TopLevelDesign_rst_ps7_0_100M_0_synth_1/TopLevelDesign_rst_ps7_0_100M_0.dcp' has been generated.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3222.457 ; gain = 0.000 ; free physical = 8802 ; free virtual = 14520
+INFO: [Common 17-1381] The checkpoint '/home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.runs/TopLevelDesign_rst_ps7_0_100M_0_synth_1/TopLevelDesign_rst_ps7_0_100M_0.dcp' has been generated.
 INFO: [Vivado 12-24828] Executing command : report_utilization -file TopLevelDesign_rst_ps7_0_100M_0_utilization_synth.rpt -pb TopLevelDesign_rst_ps7_0_100M_0_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Thu Oct 17 15:07:27 2024...
+INFO: [Common 17-206] Exiting Vivado at Fri Nov  8 19:47:57 2024...

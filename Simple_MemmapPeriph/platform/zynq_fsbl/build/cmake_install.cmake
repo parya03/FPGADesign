@@ -1,4 +1,4 @@
-# Install script for directory: /home/p7810456/FPGADesign/Simple_MemmapPeriph/platform/zynq_fsbl
+# Install script for directory: /home/user/FPGADesign/Simple_MemmapPeriph/platform/zynq_fsbl
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/home/p7810456/Xilinx/Vitis/2024.1/gnu/aarch32/lin/gcc-arm-none-eabi/bin/arm-none-eabi-objdump")
+  set(CMAKE_OBJDUMP "/home/user/Xilinx/Vitis/2024.1/gnu/aarch32/lin/gcc-arm-none-eabi/bin/arm-none-eabi-objdump")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/p7810456/FPGADesign/Simple_MemmapPeriph/platform/zynq_fsbl/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/user/FPGADesign/Simple_MemmapPeriph/platform/zynq_fsbl/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

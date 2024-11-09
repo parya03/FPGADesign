@@ -1,9 +1,9 @@
-set(CMAKE_HOST_SYSTEM "Linux-5.19.0-41-generic")
+set(CMAKE_HOST_SYSTEM "Linux-6.10.4-linuxkit")
 set(CMAKE_HOST_SYSTEM_NAME "Linux")
-set(CMAKE_HOST_SYSTEM_VERSION "5.19.0-41-generic")
+set(CMAKE_HOST_SYSTEM_VERSION "6.10.4-linuxkit")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
-include("/home/p7810456/FPGADesign/Simple_MemmapPeriph/platform/zynq_fsbl/zynq_fsbl_bsp/cortexa9_toolchain.cmake")
+include("/home/user/FPGADesign/Simple_MemmapPeriph/platform/zynq_fsbl/zynq_fsbl_bsp/cortexa9_toolchain.cmake")
 
 set(CMAKE_SYSTEM "Generic")
 set(CMAKE_SYSTEM_NAME "Generic")

@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "/home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.runs/TopLevelDesign_rst_ps7_0_100M_0_synth_1/TopLevelDesign_rst_ps7_0_100M_0.tcl"
+  variable script "/home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.runs/TopLevelDesign_rst_ps7_0_100M_0_synth_1/TopLevelDesign_rst_ps7_0_100M_0.tcl"
   variable category "vivado_synth"
 }
 
@@ -65,23 +65,21 @@ set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
-set_property webtalk.parent_dir /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.cache/wt [current_project]
-set_property parent.project_path /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.xpr [current_project]
+set_property webtalk.parent_dir /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.cache/wt [current_project]
+set_property parent.project_path /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.xpr [current_project]
 set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property board_part_repo_paths {/home/p7810456/.Xilinx/Vivado/2024.1/xhub/board_store/xilinx_board_store} [current_project]
-set_property board_part tul.com.tw:pynq-z2:part0:1.0 [current_project]
-set_property ip_repo_paths /home/p7810456/FPGADesign/ip_repo/Simple_MMap_1_0 [current_project]
+set_property ip_repo_paths /home/user/FPGADesign/ip_repo/Simple_MMap_1_0 [current_project]
 update_ip_catalog
-set_property ip_output_repo /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.cache/ip [current_project]
+set_property ip_output_repo /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_ip -quiet /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.srcs/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/TopLevelDesign_rst_ps7_0_100M_0.xci
-set_property used_in_implementation false [get_files -all /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/TopLevelDesign_rst_ps7_0_100M_0_board.xdc]
-set_property used_in_implementation false [get_files -all /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/TopLevelDesign_rst_ps7_0_100M_0.xdc]
-set_property used_in_implementation false [get_files -all /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/TopLevelDesign_rst_ps7_0_100M_0_ooc.xdc]
+read_ip -quiet /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.srcs/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/TopLevelDesign_rst_ps7_0_100M_0.xci
+set_property used_in_implementation false [get_files -all /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/TopLevelDesign_rst_ps7_0_100M_0_board.xdc]
+set_property used_in_implementation false [get_files -all /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/TopLevelDesign_rst_ps7_0_100M_0.xdc]
+set_property used_in_implementation false [get_files -all /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/TopLevelDesign_rst_ps7_0_100M_0_ooc.xdc]
 
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -97,7 +95,7 @@ set_property used_in_implementation false [get_files dont_touch.xdc]
 set_param ips.enableIPCacheLiteLoad 1
 OPTRACE "Configure IP Cache" START { }
 
-set cacheID [config_ip_cache -export -no_bom  -dir /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.runs/TopLevelDesign_rst_ps7_0_100M_0_synth_1 -new_name TopLevelDesign_rst_ps7_0_100M_0 -ip [get_ips TopLevelDesign_rst_ps7_0_100M_0]]
+set cacheID [config_ip_cache -export -no_bom  -dir /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.runs/TopLevelDesign_rst_ps7_0_100M_0_synth_1 -new_name TopLevelDesign_rst_ps7_0_100M_0 -ip [get_ips TopLevelDesign_rst_ps7_0_100M_0]]
 
 OPTRACE "Configure IP Cache" END { }
 if { $cacheID == "" } {
@@ -152,32 +150,32 @@ generate_parallel_reports -reports { "report_utilization -file TopLevelDesign_rs
 OPTRACE "synth reports" END { }
 
 if { [catch {
-  file copy -force /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.runs/TopLevelDesign_rst_ps7_0_100M_0_synth_1/TopLevelDesign_rst_ps7_0_100M_0.dcp /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/TopLevelDesign_rst_ps7_0_100M_0.dcp
+  file copy -force /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.runs/TopLevelDesign_rst_ps7_0_100M_0_synth_1/TopLevelDesign_rst_ps7_0_100M_0.dcp /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/TopLevelDesign_rst_ps7_0_100M_0.dcp
 } _RESULT ] } { 
   send_msg_id runtcl-3 status "ERROR: Unable to successfully create or copy the sub-design checkpoint file."
   error "ERROR: Unable to successfully create or copy the sub-design checkpoint file."
 }
 
 if { [catch {
-  write_verilog -force -mode synth_stub /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/TopLevelDesign_rst_ps7_0_100M_0_stub.v
+  write_verilog -force -mode synth_stub /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/TopLevelDesign_rst_ps7_0_100M_0_stub.v
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create a Verilog synthesis stub for the sub-design. This may lead to errors in top level synthesis of the design. Error reported: $_RESULT"
 }
 
 if { [catch {
-  write_vhdl -force -mode synth_stub /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/TopLevelDesign_rst_ps7_0_100M_0_stub.vhdl
+  write_vhdl -force -mode synth_stub /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/TopLevelDesign_rst_ps7_0_100M_0_stub.vhdl
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create a VHDL synthesis stub for the sub-design. This may lead to errors in top level synthesis of the design. Error reported: $_RESULT"
 }
 
 if { [catch {
-  write_verilog -force -mode funcsim /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/TopLevelDesign_rst_ps7_0_100M_0_sim_netlist.v
+  write_verilog -force -mode funcsim /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/TopLevelDesign_rst_ps7_0_100M_0_sim_netlist.v
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create the Verilog functional simulation sub-design file. Post-Synthesis Functional Simulation with this file may not be possible or may give incorrect results. Error reported: $_RESULT"
 }
 
 if { [catch {
-  write_vhdl -force -mode funcsim /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/TopLevelDesign_rst_ps7_0_100M_0_sim_netlist.vhdl
+  write_vhdl -force -mode funcsim /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/TopLevelDesign_rst_ps7_0_100M_0_sim_netlist.vhdl
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create the VHDL functional simulation sub-design file. Post-Synthesis Functional Simulation with this file may not be possible or may give incorrect results. Error reported: $_RESULT"
 }
@@ -187,32 +185,32 @@ if { [catch {
 
 
 if { [catch {
-  file copy -force /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.runs/TopLevelDesign_rst_ps7_0_100M_0_synth_1/TopLevelDesign_rst_ps7_0_100M_0.dcp /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/TopLevelDesign_rst_ps7_0_100M_0.dcp
+  file copy -force /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.runs/TopLevelDesign_rst_ps7_0_100M_0_synth_1/TopLevelDesign_rst_ps7_0_100M_0.dcp /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/TopLevelDesign_rst_ps7_0_100M_0.dcp
 } _RESULT ] } { 
   send_msg_id runtcl-3 status "ERROR: Unable to successfully create or copy the sub-design checkpoint file."
   error "ERROR: Unable to successfully create or copy the sub-design checkpoint file."
 }
 
 if { [catch {
-  file rename -force /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.runs/TopLevelDesign_rst_ps7_0_100M_0_synth_1/TopLevelDesign_rst_ps7_0_100M_0_stub.v /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/TopLevelDesign_rst_ps7_0_100M_0_stub.v
+  file rename -force /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.runs/TopLevelDesign_rst_ps7_0_100M_0_synth_1/TopLevelDesign_rst_ps7_0_100M_0_stub.v /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/TopLevelDesign_rst_ps7_0_100M_0_stub.v
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create a Verilog synthesis stub for the sub-design. This may lead to errors in top level synthesis of the design. Error reported: $_RESULT"
 }
 
 if { [catch {
-  file rename -force /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.runs/TopLevelDesign_rst_ps7_0_100M_0_synth_1/TopLevelDesign_rst_ps7_0_100M_0_stub.vhdl /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/TopLevelDesign_rst_ps7_0_100M_0_stub.vhdl
+  file rename -force /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.runs/TopLevelDesign_rst_ps7_0_100M_0_synth_1/TopLevelDesign_rst_ps7_0_100M_0_stub.vhdl /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/TopLevelDesign_rst_ps7_0_100M_0_stub.vhdl
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create a VHDL synthesis stub for the sub-design. This may lead to errors in top level synthesis of the design. Error reported: $_RESULT"
 }
 
 if { [catch {
-  file rename -force /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.runs/TopLevelDesign_rst_ps7_0_100M_0_synth_1/TopLevelDesign_rst_ps7_0_100M_0_sim_netlist.v /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/TopLevelDesign_rst_ps7_0_100M_0_sim_netlist.v
+  file rename -force /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.runs/TopLevelDesign_rst_ps7_0_100M_0_synth_1/TopLevelDesign_rst_ps7_0_100M_0_sim_netlist.v /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/TopLevelDesign_rst_ps7_0_100M_0_sim_netlist.v
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create the Verilog functional simulation sub-design file. Post-Synthesis Functional Simulation with this file may not be possible or may give incorrect results. Error reported: $_RESULT"
 }
 
 if { [catch {
-  file rename -force /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.runs/TopLevelDesign_rst_ps7_0_100M_0_synth_1/TopLevelDesign_rst_ps7_0_100M_0_sim_netlist.vhdl /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/TopLevelDesign_rst_ps7_0_100M_0_sim_netlist.vhdl
+  file rename -force /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.runs/TopLevelDesign_rst_ps7_0_100M_0_synth_1/TopLevelDesign_rst_ps7_0_100M_0_sim_netlist.vhdl /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/TopLevelDesign_rst_ps7_0_100M_0_sim_netlist.vhdl
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create the VHDL functional simulation sub-design file. Post-Synthesis Functional Simulation with this file may not be possible or may give incorrect results. Error reported: $_RESULT"
 }
@@ -220,15 +218,15 @@ if { [catch {
 close [open .end.used_ip_cache.rst w]
 }; # end if cacheID 
 
-if {[file isdir /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.ip_user_files/ip/TopLevelDesign_rst_ps7_0_100M_0]} {
+if {[file isdir /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.ip_user_files/ip/TopLevelDesign_rst_ps7_0_100M_0]} {
   catch { 
-    file copy -force /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/TopLevelDesign_rst_ps7_0_100M_0_stub.v /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.ip_user_files/ip/TopLevelDesign_rst_ps7_0_100M_0
+    file copy -force /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/TopLevelDesign_rst_ps7_0_100M_0_stub.v /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.ip_user_files/ip/TopLevelDesign_rst_ps7_0_100M_0
   }
 }
 
-if {[file isdir /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.ip_user_files/ip/TopLevelDesign_rst_ps7_0_100M_0]} {
+if {[file isdir /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.ip_user_files/ip/TopLevelDesign_rst_ps7_0_100M_0]} {
   catch { 
-    file copy -force /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/TopLevelDesign_rst_ps7_0_100M_0_stub.vhdl /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.ip_user_files/ip/TopLevelDesign_rst_ps7_0_100M_0
+    file copy -force /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/TopLevelDesign_rst_ps7_0_100M_0_stub.vhdl /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.ip_user_files/ip/TopLevelDesign_rst_ps7_0_100M_0
   }
 }
 file delete __synthesis_is_running__

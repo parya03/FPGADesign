@@ -1,10 +1,10 @@
-verilog xil_defaultlib --include "/home/p7810456/Xilinx/Vivado/2024.1/data/xilinx_vip/include" --include "../../../../Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ipshared/ec67/hdl" --include "../../../../Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ipshared/b28c/hdl" \
-"../../../bd/TopLevelDesign/ipshared/c0af/hdl/Simple_MMap_slave_lite_v1_0_S00_AXI.v" \
-"../../../bd/TopLevelDesign/ipshared/c0af/hdl/Simple_MMap_slave_lite_inter_v1_0_S_AXI_INTR.v" \
-"../../../bd/TopLevelDesign/ipshared/c0af/hdl/Simple_MMap.v" \
-"../../../bd/TopLevelDesign/ip/TopLevelDesign_Simple_MMap_0_0/sim/TopLevelDesign_Simple_MMap_0_0.v" \
+verilog xil_defaultlib --include "/home/user/Xilinx/Vivado/2024.1/data/xilinx_vip/include" --include "../../../../Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ipshared/ec67/hdl" --include "../../../../Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ipshared/b28c/hdl" \
 "../../../bd/TopLevelDesign/ip/TopLevelDesign_processing_system7_0_0/sim/TopLevelDesign_processing_system7_0_0.v" \
 "../../../bd/TopLevelDesign/ip/TopLevelDesign_xbar_0/sim/TopLevelDesign_xbar_0.v" \
+"../../../bd/TopLevelDesign/ipshared/f6f2/hdl/Simple_MMap_slave_lite_v1_0_S00_AXI.v" \
+"../../../bd/TopLevelDesign/ipshared/f6f2/hdl/Simple_MMap_slave_lite_inter_v1_0_S_AXI_INTR.v" \
+"../../../bd/TopLevelDesign/ipshared/f6f2/hdl/Simple_MMap.v" \
+"../../../bd/TopLevelDesign/ip/TopLevelDesign_Simple_MMap_0_0/sim/TopLevelDesign_Simple_MMap_0_0.v" \
 "../../../bd/TopLevelDesign/ip/TopLevelDesign_auto_pc_0/sim/TopLevelDesign_auto_pc_0.v" \
 "../../../bd/TopLevelDesign/sim/TopLevelDesign.v" \
 

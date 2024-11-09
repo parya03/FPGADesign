@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Fri Nov  8 19:44:53 2024
+# Process ID: 1167
+# Current directory: /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.runs/TopLevelDesign_rst_ps7_0_100M_0_synth_1
+# Command line: vivado -log TopLevelDesign_rst_ps7_0_100M_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source TopLevelDesign_rst_ps7_0_100M_0.tcl
+# Log file: /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.runs/TopLevelDesign_rst_ps7_0_100M_0_synth_1/TopLevelDesign_rst_ps7_0_100M_0.vds
+# Journal file: /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.runs/TopLevelDesign_rst_ps7_0_100M_0_synth_1/vivado.jou
+# Running On        :03eb3b363294
+# Platform          :Ubuntu
+# Operating System  :Ubuntu 22.04.5 LTS
+# Processor Detail  :
+# CPU Frequency     :
+# CPU Physical cores:12
+# CPU Logical cores :12
+# Host memory       :18834 MB
+# Swap memory       :4294 MB
+# Total Virtual     :23129 MB
+# Available Virtual :18037 MB
+#-----------------------------------------------------------
+source TopLevelDesign_rst_ps7_0_100M_0.tcl -notrace
