@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Fri Nov  8 19:44:40 2024" VIVADOVERSION="2024.1">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sat Nov  9 16:18:17 2024" VIVADOVERSION="2024.1">
 
   <SYSTEMINFO ARCH="zynq" DEVICE="7z020" NAME="TopLevelDesign" PACKAGE="clg400" SPEEDGRADE="-1"/>
 
@@ -164,7 +164,7 @@
   </EXTERNALINTERFACES>
 
   <MODULES>
-    <MODULE COREREVISION="7" FULLNAME="/Simple_MMap_0" HWVERSION="1.0" INSTANCE="Simple_MMap_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="Simple_MMap" VLNV="user.org:user:Simple_MMap:1.0">
+    <MODULE COREREVISION="8" FULLNAME="/Simple_MMap_0" HWVERSION="1.0" INSTANCE="Simple_MMap_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="Simple_MMap" VLNV="user.org:user:Simple_MMap:1.0">
       <DOCUMENTS/>
       <ADDRESSBLOCKS>
         <ADDRESSBLOCK ACCESS="" INTERFACE="S00_AXI" NAME="S00_AXI_reg" RANGE="4096" USAGE="register"/>
@@ -2390,10 +2390,10 @@
             <CONNECTION INSTANCE="axi_interconnect_0" PORT="S00_ACLK"/>
             <CONNECTION INSTANCE="axi_interconnect_0" PORT="M00_ACLK"/>
             <CONNECTION INSTANCE="axi_interconnect_0" PORT="M01_ACLK"/>
-            <CONNECTION INSTANCE="Simple_MMap_0" PORT="s00_axi_aclk"/>
-            <CONNECTION INSTANCE="Simple_MMap_0" PORT="s_axi_intr_aclk"/>
             <CONNECTION INSTANCE="processing_system7_0" PORT="M_AXI_GP0_ACLK"/>
             <CONNECTION INSTANCE="rst_ps7_0_100M" PORT="slowest_sync_clk"/>
+            <CONNECTION INSTANCE="Simple_MMap_0" PORT="s00_axi_aclk"/>
+            <CONNECTION INSTANCE="Simple_MMap_0" PORT="s_axi_intr_aclk"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="FCLK_RESET0_N" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="processing_system7_0_FCLK_RESET0_N">

@@ -27,7 +27,25 @@ int main()
 {
     init_platform();
     
-    *((volatile uint32_t *)XPAR_SIMPLE_MMAP_0_BASEADDR) = 0xFFFFFFFF;
+    while(1) {
+        *((volatile uint32_t *)XPAR_SIMPLE_MMAP_0_BASEADDR) = 0xFFFFFFFF;
+
+        for(volatile uint32_t i = 0; i < 10000000; i++) {
+            __asm("nop");
+        }
+
+        *((volatile uint32_t *)XPAR_SIMPLE_MMAP_0_BASEADDR) = 0x00000000;
+
+        for(volatile uint32_t i = 0; i < 10000000; i++) {
+            __asm("nop");
+        }
+    }
+
+    // for(uint8_t *i = (uint8_t *)XPAR_SIMPLE_MMAP_0_BASEADDR; i <= (uint8_t *)XPAR_SIMPLE_MMAP_0_HIGHADDR; i++) {
+    //     *i = 0xFF;
+    // }
+
+    // volatile uint32_t temp = *(uint32_t *)XPAR_SIMPLE_MMAP_0_BASEADDR;
 
     print("Hello World\n\r");
     print("Successfully ran Hello World application");

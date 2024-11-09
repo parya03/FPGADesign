@@ -2322,7 +2322,7 @@
       },
       "Simple_MMap_0": {
         "vlnv": "user.org:user:Simple_MMap:1.0",
-        "ip_revision": "7",
+        "ip_revision": "8",
         "xci_name": "TopLevelDesign_Simple_MMap_0_0",
         "xci_path": "ip/TopLevelDesign_Simple_MMap_0_0/TopLevelDesign_Simple_MMap_0_0.xci",
         "inst_hier_path": "Simple_MMap_0"
@@ -2374,10 +2374,10 @@
           "axi_interconnect_0/S00_ACLK",
           "axi_interconnect_0/M00_ACLK",
           "axi_interconnect_0/M01_ACLK",
-          "Simple_MMap_0/s00_axi_aclk",
-          "Simple_MMap_0/s_axi_intr_aclk",
           "processing_system7_0/M_AXI_GP0_ACLK",
-          "rst_ps7_0_100M/slowest_sync_clk"
+          "rst_ps7_0_100M/slowest_sync_clk",
+          "Simple_MMap_0/s00_axi_aclk",
+          "Simple_MMap_0/s_axi_intr_aclk"
         ]
       },
       "processing_system7_0_FCLK_RESET0_N": {

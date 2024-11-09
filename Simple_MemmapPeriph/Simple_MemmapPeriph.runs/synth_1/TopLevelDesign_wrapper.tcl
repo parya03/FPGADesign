@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "/home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.runs/synth_1/TopLevelDesign_wrapper.tcl"
+  variable script "/home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.runs/synth_1/TopLevelDesign_wrapper.tcl"
   variable category "vivado_synth"
 }
 
@@ -56,6 +56,7 @@ if {$::dispatch::connected} {
 }
 
 OPTRACE "synth_1" START { ROLLUP_AUTO }
+set_param chipscope.maxJobs 4
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7z020clg400-1
 
@@ -63,26 +64,26 @@ set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
-set_property webtalk.parent_dir /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.cache/wt [current_project]
-set_property parent.project_path /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.xpr [current_project]
+set_property webtalk.parent_dir /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.cache/wt [current_project]
+set_property parent.project_path /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.xpr [current_project]
 set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property ip_repo_paths /home/user/FPGADesign/ip_repo/Simple_MMap_1_0 [current_project]
+set_property ip_repo_paths /home/p7810456/FPGADesign/ip_repo/Simple_MMap_1_0 [current_project]
 update_ip_catalog
-set_property ip_output_repo /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.cache/ip [current_project]
+set_property ip_output_repo /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_verilog -library xil_defaultlib /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/hdl/TopLevelDesign_wrapper.v
-add_files /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.srcs/sources_1/bd/TopLevelDesign/TopLevelDesign.bd
-set_property used_in_implementation false [get_files -all /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_processing_system7_0_0/TopLevelDesign_processing_system7_0_0.xdc]
-set_property used_in_implementation false [get_files -all /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_xbar_0/TopLevelDesign_xbar_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_auto_pc_0/TopLevelDesign_auto_pc_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/TopLevelDesign_rst_ps7_0_100M_0_board.xdc]
-set_property used_in_implementation false [get_files -all /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/TopLevelDesign_rst_ps7_0_100M_0.xdc]
-set_property used_in_implementation false [get_files -all /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/TopLevelDesign_rst_ps7_0_100M_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/TopLevelDesign_ooc.xdc]
+read_verilog -library xil_defaultlib /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/hdl/TopLevelDesign_wrapper.v
+add_files /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.srcs/sources_1/bd/TopLevelDesign/TopLevelDesign.bd
+set_property used_in_implementation false [get_files -all /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_processing_system7_0_0/TopLevelDesign_processing_system7_0_0.xdc]
+set_property used_in_implementation false [get_files -all /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_xbar_0/TopLevelDesign_xbar_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/TopLevelDesign_rst_ps7_0_100M_0_board.xdc]
+set_property used_in_implementation false [get_files -all /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/TopLevelDesign_rst_ps7_0_100M_0.xdc]
+set_property used_in_implementation false [get_files -all /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_rst_ps7_0_100M_0/TopLevelDesign_rst_ps7_0_100M_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_auto_pc_0/TopLevelDesign_auto_pc_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/TopLevelDesign_ooc.xdc]
 
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -93,14 +94,14 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.srcs/constrs_1/imports/constraints/base.xdc
-set_property used_in_implementation false [get_files /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.srcs/constrs_1/imports/constraints/base.xdc]
+read_xdc /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.srcs/constrs_1/imports/constraints/base.xdc
+set_property used_in_implementation false [get_files /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.srcs/constrs_1/imports/constraints/base.xdc]
 
 read_xdc dont_touch.xdc
 set_property used_in_implementation false [get_files dont_touch.xdc]
 set_param ips.enableIPCacheLiteLoad 1
 
-read_checkpoint -auto_incremental -incremental /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.srcs/utils_1/imports/synth_1/TopLevelDesign_wrapper.dcp
+read_checkpoint -auto_incremental -incremental /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.srcs/utils_1/imports/synth_1/TopLevelDesign_wrapper.dcp
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }

@@ -48,7 +48,7 @@
 
 
 // IP VLNV: user.org:user:Simple_MMap:1.0
-// IP Revision: 7
+// IP Revision: 8
 
 (* X_CORE_INFO = "Simple_MMap,Vivado 2024.1" *)
 (* CHECK_LICENSE_TYPE = "TopLevelDesign_Simple_MMap_0_0,Simple_MMap,{}" *)

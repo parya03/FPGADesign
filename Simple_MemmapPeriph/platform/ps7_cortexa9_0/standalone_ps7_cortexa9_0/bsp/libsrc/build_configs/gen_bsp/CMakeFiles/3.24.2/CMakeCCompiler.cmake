@@ -1,4 +1,4 @@
-set(CMAKE_C_COMPILER "/home/user/Xilinx/Vitis/2024.1/gnu/aarch32/lin/gcc-arm-none-eabi/bin/arm-none-eabi-gcc")
+set(CMAKE_C_COMPILER "/home/p7810456/Xilinx/Vitis/2024.1/gnu/aarch32/lin/gcc-arm-none-eabi/bin/arm-none-eabi-gcc")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_COMPILER_VERSION "12.2.0")
@@ -18,15 +18,15 @@ set(CMAKE_C_SIMULATE_ID "")
 set(CMAKE_C_COMPILER_FRONTEND_VARIANT "")
 set(CMAKE_C_SIMULATE_VERSION "")
 
-set(CMAKE_C_COMPILER_SYSROOT "/home/user/Xilinx/Vitis/2024.1/gnu/aarch32/lin/gcc-arm-none-eabi/bin/../aarch32-xilinx-eabi/usr")
-set(CMAKE_COMPILER_SYSROOT "/home/user/Xilinx/Vitis/2024.1/gnu/aarch32/lin/gcc-arm-none-eabi/bin/../aarch32-xilinx-eabi/usr")
+set(CMAKE_C_COMPILER_SYSROOT "/home/p7810456/Xilinx/Vitis/2024.1/gnu/aarch32/lin/gcc-arm-none-eabi/bin/../aarch32-xilinx-eabi/usr")
+set(CMAKE_COMPILER_SYSROOT "/home/p7810456/Xilinx/Vitis/2024.1/gnu/aarch32/lin/gcc-arm-none-eabi/bin/../aarch32-xilinx-eabi/usr")
 
 
 set(CMAKE_AR "arm-none-eabi-ar")
-set(CMAKE_C_COMPILER_AR "/home/user/Xilinx/Vitis/2024.1/gnu/aarch32/lin/gcc-arm-none-eabi/bin/arm-none-eabi-gcc-ar")
-set(CMAKE_RANLIB "/home/user/Xilinx/Vitis/2024.1/gnu/aarch32/lin/gcc-arm-none-eabi/bin/arm-none-eabi-ranlib")
-set(CMAKE_C_COMPILER_RANLIB "/home/user/Xilinx/Vitis/2024.1/gnu/aarch32/lin/gcc-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib")
-set(CMAKE_LINKER "/home/user/Xilinx/Vitis/2024.1/gnu/aarch32/lin/gcc-arm-none-eabi/bin/arm-none-eabi-ld")
+set(CMAKE_C_COMPILER_AR "/home/p7810456/Xilinx/Vitis/2024.1/gnu/aarch32/lin/gcc-arm-none-eabi/bin/arm-none-eabi-gcc-ar")
+set(CMAKE_RANLIB "/home/p7810456/Xilinx/Vitis/2024.1/gnu/aarch32/lin/gcc-arm-none-eabi/bin/arm-none-eabi-ranlib")
+set(CMAKE_C_COMPILER_RANLIB "/home/p7810456/Xilinx/Vitis/2024.1/gnu/aarch32/lin/gcc-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib")
+set(CMAKE_LINKER "/home/p7810456/Xilinx/Vitis/2024.1/gnu/aarch32/lin/gcc-arm-none-eabi/bin/arm-none-eabi-ld")
 set(CMAKE_MT "")
 set(CMAKE_COMPILER_IS_GNUCC 1)
 set(CMAKE_C_COMPILER_LOADED 1)
@@ -67,7 +67,7 @@ endif()
 
 
 
-set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/home/user/FPGADesign/Simple_MemmapPeriph/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/include;/home/user/Xilinx/Vitis/2024.1/gnu/aarch32/lin/gcc-arm-none-eabi/x86_64-oesdk-linux/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/12.2.0/include;/home/user/Xilinx/Vitis/2024.1/gnu/aarch32/lin/gcc-arm-none-eabi/x86_64-oesdk-linux/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/12.2.0/include-fixed;/home/user/Xilinx/Vitis/2024.1/gnu/aarch32/lin/gcc-arm-none-eabi/aarch32-xilinx-eabi/usr/include")
+set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/home/p7810456/FPGADesign/Simple_MemmapPeriph/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/include;/home/p7810456/Xilinx/Vitis/2024.1/gnu/aarch32/lin/gcc-arm-none-eabi/x86_64-oesdk-linux/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/12.2.0/include;/home/p7810456/Xilinx/Vitis/2024.1/gnu/aarch32/lin/gcc-arm-none-eabi/x86_64-oesdk-linux/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/12.2.0/include-fixed;/home/p7810456/Xilinx/Vitis/2024.1/gnu/aarch32/lin/gcc-arm-none-eabi/aarch32-xilinx-eabi/usr/include")
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "gcc;c")
-set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/home/user/Xilinx/Vitis/2024.1/gnu/aarch32/lin/gcc-arm-none-eabi/aarch32-xilinx-eabi/usr/lib/thumb/v7-a+fp/hard;/home/user/Xilinx/Vitis/2024.1/gnu/aarch32/lin/gcc-arm-none-eabi/x86_64-oesdk-linux/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/12.2.0;/home/user/Xilinx/Vitis/2024.1/gnu/aarch32/lin/gcc-arm-none-eabi/x86_64-oesdk-linux/usr/lib/arm-xilinx-eabi/gcc;/home/user/Xilinx/Vitis/2024.1/gnu/aarch32/lin/gcc-arm-none-eabi/aarch32-xilinx-eabi/usr/lib/arm-xilinx-eabi/12.2.0;/home/user/Xilinx/Vitis/2024.1/gnu/aarch32/lin/gcc-arm-none-eabi/aarch32-xilinx-eabi/usr/lib")
+set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/home/p7810456/Xilinx/Vitis/2024.1/gnu/aarch32/lin/gcc-arm-none-eabi/aarch32-xilinx-eabi/usr/lib/thumb/v7-a+fp/hard;/home/p7810456/Xilinx/Vitis/2024.1/gnu/aarch32/lin/gcc-arm-none-eabi/x86_64-oesdk-linux/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/12.2.0;/home/p7810456/Xilinx/Vitis/2024.1/gnu/aarch32/lin/gcc-arm-none-eabi/x86_64-oesdk-linux/usr/lib/arm-xilinx-eabi/gcc;/home/p7810456/Xilinx/Vitis/2024.1/gnu/aarch32/lin/gcc-arm-none-eabi/aarch32-xilinx-eabi/usr/lib/arm-xilinx-eabi/12.2.0;/home/p7810456/Xilinx/Vitis/2024.1/gnu/aarch32/lin/gcc-arm-none-eabi/aarch32-xilinx-eabi/usr/lib")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

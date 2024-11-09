@@ -48,19 +48,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/user/Xilinx/Vitis/2024.1/tps/lnx64/cmake-3.24.2/bin/cmake
+CMAKE_COMMAND = /home/p7810456/Xilinx/Vitis/2024.1/tps/lnx64/cmake-3.24.2/bin/cmake
 
 # The command to remove a file.
-RM = /home/user/Xilinx/Vitis/2024.1/tps/lnx64/cmake-3.24.2/bin/cmake -E rm -f
+RM = /home/p7810456/Xilinx/Vitis/2024.1/tps/lnx64/cmake-3.24.2/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/FPGADesign/Simple_MemmapPeriph/platform/zynq_fsbl
+CMAKE_SOURCE_DIR = /home/p7810456/FPGADesign/Simple_MemmapPeriph/platform/zynq_fsbl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/FPGADesign/Simple_MemmapPeriph/platform/zynq_fsbl/build
+CMAKE_BINARY_DIR = /home/p7810456/FPGADesign/Simple_MemmapPeriph/platform/zynq_fsbl/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -84,14 +84,14 @@ clean: CMakeFiles/fsbl.elf.dir/clean
 CMakeFiles/fsbl.elf.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsbl.elf.dir/build.make CMakeFiles/fsbl.elf.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsbl.elf.dir/build.make CMakeFiles/fsbl.elf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/user/FPGADesign/Simple_MemmapPeriph/platform/zynq_fsbl/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13 "Built target fsbl.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/p7810456/FPGADesign/Simple_MemmapPeriph/platform/zynq_fsbl/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13 "Built target fsbl.elf"
 .PHONY : CMakeFiles/fsbl.elf.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/fsbl.elf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/FPGADesign/Simple_MemmapPeriph/platform/zynq_fsbl/build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/p7810456/FPGADesign/Simple_MemmapPeriph/platform/zynq_fsbl/build/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/fsbl.elf.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/FPGADesign/Simple_MemmapPeriph/platform/zynq_fsbl/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/p7810456/FPGADesign/Simple_MemmapPeriph/platform/zynq_fsbl/build/CMakeFiles 0
 .PHONY : CMakeFiles/fsbl.elf.dir/rule
 
 # Convenience name for target.

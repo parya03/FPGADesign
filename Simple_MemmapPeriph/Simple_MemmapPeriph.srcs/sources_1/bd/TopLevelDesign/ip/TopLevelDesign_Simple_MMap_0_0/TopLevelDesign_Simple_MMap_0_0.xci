@@ -4,7 +4,7 @@
     "xci_name": "TopLevelDesign_Simple_MMap_0_0",
     "cell_name": "Simple_MMap_0",
     "component_reference": "user.org:user:Simple_MMap:1.0",
-    "ip_revision": "7",
+    "ip_revision": "8",
     "gen_directory": "../../../../../../Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_Simple_MMap_0_0",
     "parameters": {
       "component_parameters": {
@@ -50,7 +50,7 @@
       },
       "runtime_parameters": {
         "IPCONTEXT": [ { "value": "IP_Integrator" } ],
-        "IPREVISION": [ { "value": "7" } ],
+        "IPREVISION": [ { "value": "8" } ],
         "MANAGED": [ { "value": "TRUE" } ],
         "OUTPUTDIR": [ { "value": "../../../../../../Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_Simple_MMap_0_0" } ],
         "SELECTEDSIMMODEL": [ { "value": "" } ],

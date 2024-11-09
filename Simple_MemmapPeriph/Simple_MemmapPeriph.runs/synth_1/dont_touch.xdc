@@ -12,9 +12,6 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==TopLevelDes
 # IP: bd/TopLevelDesign/ip/TopLevelDesign_xbar_0/TopLevelDesign_xbar_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==TopLevelDesign_xbar_0 || ORIG_REF_NAME==TopLevelDesign_xbar_0} -quiet] -quiet
 
-# IP: bd/TopLevelDesign/ip/TopLevelDesign_auto_pc_0/TopLevelDesign_auto_pc_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==TopLevelDesign_auto_pc_0 || ORIG_REF_NAME==TopLevelDesign_auto_pc_0} -quiet] -quiet
-
 # IP: bd/TopLevelDesign/ip/TopLevelDesign_axi_interconnect_0_0/TopLevelDesign_axi_interconnect_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==TopLevelDesign_axi_interconnect_0_0 || ORIG_REF_NAME==TopLevelDesign_axi_interconnect_0_0} -quiet] -quiet
 
@@ -24,4 +21,7 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==TopLevelDes
 # IP: bd/TopLevelDesign/ip/TopLevelDesign_Simple_MMap_0_0/TopLevelDesign_Simple_MMap_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==TopLevelDesign_Simple_MMap_0_0 || ORIG_REF_NAME==TopLevelDesign_Simple_MMap_0_0} -quiet] -quiet
 
-# XDC: /home/user/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/TopLevelDesign_ooc.xdc
+# IP: bd/TopLevelDesign/ip/TopLevelDesign_auto_pc_0/TopLevelDesign_auto_pc_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==TopLevelDesign_auto_pc_0 || ORIG_REF_NAME==TopLevelDesign_auto_pc_0} -quiet] -quiet
+
+# XDC: /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.gen/sources_1/bd/TopLevelDesign/TopLevelDesign_ooc.xdc

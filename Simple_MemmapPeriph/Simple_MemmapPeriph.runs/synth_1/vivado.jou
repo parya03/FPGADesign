@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sat Nov  9 16:19:46 2024
+# Process ID: 13895
+# Current directory: /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.runs/synth_1
+# Command line: vivado -log TopLevelDesign_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source TopLevelDesign_wrapper.tcl
+# Log file: /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.runs/synth_1/TopLevelDesign_wrapper.vds
+# Journal file: /home/p7810456/FPGADesign/Simple_MemmapPeriph/Simple_MemmapPeriph.runs/synth_1/vivado.jou
+# Running On        :p7810456-desktop-ubuntu
+# Platform          :Ubuntu
+# Operating System  :Ubuntu 22.04.3 LTS
+# Processor Detail  :AMD Ryzen 7 3700X 8-Core Processor
+# CPU Frequency     :2122.814 MHz
+# CPU Physical cores:8
+# CPU Logical cores :16
+# Host memory       :33566 MB
+# Swap memory       :2147 MB
+# Total Virtual     :35713 MB
+# Available Virtual :29162 MB
+#-----------------------------------------------------------
+source TopLevelDesign_wrapper.tcl -notrace

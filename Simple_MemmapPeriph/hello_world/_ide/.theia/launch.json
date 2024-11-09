@@ -32,7 +32,7 @@
           "usingPs7Init": {
             "runPs7Init": true,
             "runPs7PostInit": true,
-            "ps7InitTclFile": "${workspaceFolder}/hello_world/_ide/psinit/Simple_MMap.tcl"
+            "ps7InitTclFile": "${workspaceFolder}/hello_world/_ide/psinit/ps7_init.tcl"
           }
         },
         "downloadElf": [
