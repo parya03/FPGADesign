@@ -14,3 +14,8 @@ Clone the Digilent Zynq IP repo from https://github.com/Digilent/vivado-library.
 Add this as an IP repo in Vivado.
 
 Synthesis should be able to run after this.
+
+## Progress
+
+[X] Control board LEDs via memory map
+[ ] SPI Output from PL
