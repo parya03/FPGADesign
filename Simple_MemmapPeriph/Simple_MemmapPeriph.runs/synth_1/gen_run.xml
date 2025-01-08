@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< Updated upstream
 <GenRun Id="synth_1" LaunchPart="xc7z020clg400-1" LaunchTime="1731190784" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/TopLevelDesign_wrapper.dcp">
   <File Type="VDS-TIMING-PB" Name="TopLevelDesign_wrapper_timing_summary_synth.pb"/>
   <File Type="VDS-TIMINGSUMMARY" Name="TopLevelDesign_wrapper_timing_summary_synth.rpt"/>
@@ -6,9 +7,15 @@
   <File Type="RDS-UTIL-PB" Name="TopLevelDesign_wrapper_utilization_synth.pb"/>
   <File Type="RDS-UTIL" Name="TopLevelDesign_wrapper_utilization_synth.rpt"/>
   <File Type="RDS-PROPCONSTRS" Name="TopLevelDesign_wrapper_drc_synth.rpt"/>
+=======
+<GenRun Id="synth_1" LaunchPart="xc7z020clg400-1" LaunchTime="1731095210" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/TopLevelDesign_wrapper.dcp">
+>>>>>>> Stashed changes
   <File Type="RDS-RDS" Name="TopLevelDesign_wrapper.vds"/>
   <File Type="REPORTS-TCL" Name="TopLevelDesign_wrapper_reports.tcl"/>
   <File Type="PA-TCL" Name="TopLevelDesign_wrapper.tcl"/>
+  <File Type="RDS-DCP" Name="TopLevelDesign_wrapper.dcp"/>
+  <File Type="RDS-UTIL" Name="TopLevelDesign_wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="TopLevelDesign_wrapper_utilization_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/bd/TopLevelDesign/TopLevelDesign.bd">
@@ -65,6 +72,11 @@
   </Strategy>
   <BlockFileSet Type="BlockSrcs" Name="TopLevelDesign_Simple_MMap_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="TopLevelDesign_processing_system7_0_0"/>
+<<<<<<< Updated upstream
   <BlockFileSet Type="BlockSrcs" Name="TopLevelDesign_rst_ps7_0_100M_0"/>
+=======
+>>>>>>> Stashed changes
   <BlockFileSet Type="BlockSrcs" Name="TopLevelDesign_xbar_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="TopLevelDesign_rst_ps7_0_100M_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="TopLevelDesign_auto_pc_0"/>
 </GenRun>

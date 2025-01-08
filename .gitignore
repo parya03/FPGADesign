@@ -2,6 +2,7 @@
 **.cache/
 **.hw/
 **.sim/
+**.tmp
 
 # Prerequisites
 *.d

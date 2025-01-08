@@ -17,9 +17,15 @@
 		// Users to add ports here
 		
 		// Board LEDs
+<<<<<<< Updated upstream
 		//output wire [3:0] output_leds,
         output wire [C_S_AXI_DATA_WIDTH:0] reg0,
         
+=======
+		output wire [3:0] output_leds,
+		output wire [31:0] out_reg0_test,
+
+>>>>>>> Stashed changes
 		// User ports ends
 		// Do not modify the ports beyond this line
 
@@ -427,8 +433,14 @@
 	  assign S_AXI_RDATA = (axi_araddr[ADDR_LSB+OPT_MEM_ADDR_BITS:ADDR_LSB] == 2'h0) ? slv_reg0 : (axi_araddr[ADDR_LSB+OPT_MEM_ADDR_BITS:ADDR_LSB] == 2'h1) ? slv_reg1 : (axi_araddr[ADDR_LSB+OPT_MEM_ADDR_BITS:ADDR_LSB] == 2'h2) ? slv_reg2 : (axi_araddr[ADDR_LSB+OPT_MEM_ADDR_BITS:ADDR_LSB] == 2'h3) ? slv_reg3 :0;  
 	// Add user logic here
 	
+<<<<<<< Updated upstream
 //	assign output_leds[3:0] = slv_reg0[3:0];
     assign reg0 = slv_reg0;
+=======
+	assign output_leds[3:0] = slv_reg0[3:0];
+	assign out_reg0_test = slv_reg0;
+
+>>>>>>> Stashed changes
 	// User logic ends
 
 	endmodule
