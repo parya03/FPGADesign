@@ -105,12 +105,9 @@
 		.S_AXI_RRESP(s00_axi_rresp),
 		.S_AXI_RVALID(s00_axi_rvalid),
 		.S_AXI_RREADY(s00_axi_rready),
-<<<<<<< Updated upstream
 		.reg0(led_reg)
-=======
 		.output_leds(leds_4bits_tri_o),
 		.out_reg0_test(reg0_wire)
->>>>>>> Stashed changes
 	);
 
 // Instantiation of Axi Bus Interface S_AXI_INTR
@@ -148,16 +145,13 @@
 	);
 
 	// Add user logic here
-<<<<<<< Updated upstream
 	
 	wire[32:0] led_reg;
 	
 	assign led_4bits_tri_o = led_reg[3:0];
-=======
 	wire [31:0] reg0_wire;
 	wire [31:0] out;
 	test test1(reg0_wire, out);
->>>>>>> Stashed changes
 
 	// User logic ends
 
