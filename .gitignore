@@ -4,6 +4,10 @@
 **.sim/
 **.tmp
 
+# Sim stuff
+**.vcd
+**.fst
+
 # Prerequisites
 *.d
 
